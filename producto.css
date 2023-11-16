@@ -1,0 +1,52 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.700), rgba(0,0,0,0.700)), url(fondo-web5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #000000c2;
+}
+header h3{
+    color: #fff;
+    font-family: fantasy;
+    font-size: 25px;
+    font-weight: 500;
+}
+.animate{
+    color: rgba(21, 3, 102, 0.747);
+    font-size: 30px;
+}
+.animate2{
+    color: rgba(21, 3, 102, 0.747);
+    font-size: 18px;
+}
+.navbar{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+.navbar a:hover{
+    color: rgba(21, 3, 102, 0.747);
+    margin-bottom: 10px;
+}
